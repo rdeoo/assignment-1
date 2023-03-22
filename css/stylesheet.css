@@ -1,1 +1,12 @@
-body{background-color: #F3E9DE;}
+body {
+  background-color: #f3e9de;
+}
+.take-notes {
+  /* display: inline-flex; */
+  display: inline-grid;
+  font-family: "Quicksand", sans-serif;
+  color: #56536a;
+  background-color: #faf4ec;
+  /* flex-direction: column; */
+  
+}
