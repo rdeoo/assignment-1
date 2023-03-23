@@ -1,12 +1,18 @@
 body {
-  background-color: #f3e9de;
+  /* background-color: #f3e9de; */
+  display: grid;
+  font-family: "Quicksand", sans-serif;
+  /* color: #56536a; */
+  background-color: #faf4ec;
+  grid-template-columns: 10vw 90vw;
+  grid-template-rows: 100vh;
 }
-.take-notes {
+/* .take-notes {
   /* display: inline-flex; */
-  display: inline-grid;
+  /* display: grid;
   font-family: "Quicksand", sans-serif;
   color: #56536a;
-  background-color: #faf4ec;
+  background-color: #faf4ec; */
   /* flex-direction: column; */
   
-}
+/* } */ 
