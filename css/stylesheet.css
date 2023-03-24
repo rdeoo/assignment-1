@@ -3,10 +3,19 @@ body {
   display: grid;
   font-family: "Quicksand", sans-serif;
   /* color: #56536a; */
-  background-color: #faf4ec;
-  grid-template-columns: 10vw 90vw;
-  grid-template-rows: 100vh;
+  background-color: #F3E9DE;
+  grid-template-columns: 1fr 4fr;
+  /* grid-template-rows: 100vh; */
+  margin: 0%;
+  
 }
+
+aside{background-color: #FAF4EC;margin:0%;color: #256993; height: 100vh;}
+footer ul{display: flex;
+flex-direction: row;
+list-style-type: none;
+gap: 1vw;}
+footer{display: grid;justify-content: center;}
 /* .take-notes {
   /* display: inline-flex; */
 /* display: grid;
@@ -16,3 +25,6 @@ body {
 /* flex-direction: column; */
 
 /* } */
+/* nav{order: 1;} */
+.divclass{order: 1;height: 100vh;}
+h1{margin-top: 0;}
