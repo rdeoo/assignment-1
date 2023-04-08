@@ -167,6 +167,12 @@ textarea {
   color: #256993;
 }
 
+.asidecolor{background-color: #443C68;}
+.bodycolor{background-color: #B8B3CC;}
+.bodytext{color: #000}
+.asidetext{color: #FFFFFF;}
+.textareaColor{background-color: #6D5D6E;}
+
 @media screen and (max-width: 600px) {
   body {
     /* display: grid; */
