@@ -44,3 +44,16 @@ function cancelButtonFunction()
     cancelbutton.classList.add("cancelButtonFunc")
 }
 cancelbutton.addEventListener("click", cancelButtonFunction)
+
+const newNoteButton = document.querySelector(".newnote")
+
+function newNoteButtonFunction()
+{
+    if(textarea.classList.contains("cancelButtonFunc")){
+        textarea.classList.remove("cancelButtonFunc")
+        savebutton.classList.remove("cancelButtonFunc")
+        cancelbutton.classList.remove("cancelButtonFunc")
+    }else{textarea.value = ""}
+}
+
+newNoteButton.addEventListener("click", newNoteButtonFunction)
