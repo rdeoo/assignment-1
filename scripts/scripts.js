@@ -57,3 +57,10 @@ function newNoteButtonFunction()
 }
 
 newNoteButton.addEventListener("click", newNoteButtonFunction)
+
+const notesArray = [
+    { title: "note 1", body: "this is my first note" },
+    { title: "note 2", body: "this is my second note" },
+  ];
+
+  
