@@ -73,3 +73,18 @@ function SaveButtonFunction()
     ulText.appendChild(newLI)
 }
 savebutton.addEventListener("click", SaveButtonFunction)
+
+function ArraySearcher(event)
+{
+    const LiClicked = event.target.textContent;
+
+    for(let i = 0; i < notesArray.length; i++)
+    {
+        if(notesArray[i].title === LiClicked)
+        {
+            textarea.value = notesArray[i].body;
+            break
+        }
+    }
+}
+ulText.addEventListener("click", ArraySearcher)
