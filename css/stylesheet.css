@@ -172,6 +172,8 @@ textarea {
 .bodytext{color: #000}
 .asidetext{color: #FFFFFF;}
 .textareaColor{background-color: #6D5D6E;}
+.cancelButtonFunc{display: none;}
+
 
 @media screen and (max-width: 600px) {
   body {

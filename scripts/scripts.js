@@ -33,3 +33,14 @@ if(darkThemeButton.textContent === "Dark Theme"){darkThemeButton.textContent = "
 else{darkThemeButton.textContent = "Dark Theme"}
 }
 darkThemeButton.addEventListener("click", changeText);
+
+const savebutton = document.querySelector(".save")
+const cancelbutton = document.querySelector(".cancel")
+
+function cancelButtonFunction()
+{
+    textarea.classList.add("cancelButtonFunc")
+    savebutton.classList.add("cancelButtonFunc")
+    cancelbutton.classList.add("cancelButtonFunc")
+}
+cancelbutton.addEventListener("click", cancelButtonFunction)
