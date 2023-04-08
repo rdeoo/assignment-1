@@ -167,15 +167,33 @@ textarea {
   color: #256993;
 }
 
+.asidecolor {
+  background-color: #443c68;
+}
+.bodycolor {
+  background-color: #b8b3cc;
+}
+.bodytext {
+  color: #000;
+}
+.asidetext {
+  color: #ffffff;
+}
+.textareaColor {
+  background-color: #6d5d6e;
+}
+.cancelButtonFunc {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   body {
     /* display: grid; */
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
-    background-color: #FAF4EC;
+    background-color: #faf4ec;
     height: auto;
     margin: 0;
-    
   }
 
   aside {
@@ -184,38 +202,31 @@ textarea {
     position: relative;
     margin: 0;
 
-
     /* position: absolute;
     top: 0;
     /* left: -20vw;
     width: 20vw; */
-    /* height: 100vh; */ 
+    /* height: 100vh; */
   }
 
-  main
-  {
-  grid-row: 1/2;
-  display: grid;
-  /* width: 100%; */
-  /* padding: 10% 10% 5% 10%;
+  main {
+    grid-row: 1/2;
+    display: grid;
+    /* width: 100%; */
+    /* padding: 10% 10% 5% 10%;
   top: 0%; */
-  /* height: 100vh; */
-  margin: 0;
-  
-  
+    /* height: 100vh; */
+    margin: 0;
   }
-  textarea
-  {
+  textarea {
     width: 97vw;
     height: 40vh;
 
-  /* height: 50%;
+    /* height: 50%;
   width: 100%;
   resize: none; */
-
   }
-  nav
-  {
+  nav {
     height: 15vh;
   }
 
@@ -228,10 +239,15 @@ textarea {
     bottom: 0;
     position: relative;
     margin: 0;
-   
   }
-  .divclass{margin: 0;height: auto;}
-  h1{margin: 0;}
-  .aboutdoc{margin: 0;}
+  .divclass {
+    margin: 0;
+    height: auto;
+  }
+  h1 {
+    margin: 0;
+  }
+  .aboutdoc {
+    margin: 0;
+  }
 }
-
