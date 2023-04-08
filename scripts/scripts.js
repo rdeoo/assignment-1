@@ -63,4 +63,13 @@ const notesArray = [
     { title: "note 2", body: "this is my second note" },
   ];
 
-  
+function SaveButtonFunction()
+{
+    const nTitle = prompt("Enter title for this note")
+    const nBody = textarea.value
+    notesArray.push({title: nTitle, body: nBody});
+    const newLI = document.createElement("li");
+    newLI.textContent = nTitle;
+    ulText.appendChild(newLI)
+}
+savebutton.addEventListener("click", SaveButtonFunction)
